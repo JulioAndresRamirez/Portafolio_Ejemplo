@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+
+.banner {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner > img {
+    width: 63px;
+}
+
+.banner .redes-sociales {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner .redes-sociales > a {
+    display: block;
+}
+
+.banner .redes-sociales a > img {
+    width: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.main {
+    margin-top: 80px;
+}
+
+.main h2 {
+    width: 70%;
+    font-size: 59px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+.main p {
+    width: 75%;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 20px;
+    color: #383838;
+}
+
+.correo {
+    display: inline-block;
+    margin: 40px 0 100px 0;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #262626;
+    border-bottom: 3px solid black;
+}
+
+/* Proyectos */
+
+.Portafolio h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    color: #262626;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.Portafolio .proyectos {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.Portafolio .proyectos a {
+    display: block;
+}
+
+.Portafolio .proyectos img {
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+/* Contactanos */
+
+.contactanos h2 {
+    font-size: 59px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.contactanos .text-correo {
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contactanos .correo_2 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+/* Media */
+
+@media screen and (max-width: 460px) {
+    .main h2 {
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .main p {
+        font-size: 1em;
+        width: 80%;
+    }
+
+    .Portafolio .proyectos img {
+        margin-bottom: 15px;
+    }
+
+    .correo {
+        margin-bottom: 50px;
+    }
+}
